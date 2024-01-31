@@ -15,7 +15,6 @@ public class Scrittore implements Runnable{
 
     String nomeFile;
     String messaggio;
-
     //il messaggio che voglio inserire sarà il secondo argomento del costruttore di Scrittore
     
     public Scrittore(String nomeFile,String messaggio){
