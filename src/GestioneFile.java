@@ -11,7 +11,7 @@ public class GestioneFile {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+      public static void main(String[] args) {
         
         //1)LETTURA
         //Questa classe serve a leggere da un file a mia scelta, se non lo trova genererà un eccezzione
@@ -30,7 +30,7 @@ public class GestioneFile {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         try {
             System.out.println("Inserisci l'username");
-            username = br.readLine();  
+            username = br.readLine();  //legge la linea fatta di lettere ma non funziona se non si mette invio
             System.out.println("Inserisci la password");
              password = br.readLine(); 
         } catch (IOException e) {
@@ -60,4 +60,4 @@ public class GestioneFile {
         }
     }
     
-}
+}  

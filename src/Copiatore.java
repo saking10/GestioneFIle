@@ -52,8 +52,8 @@ public class Copiatore extends Thread {
             System.err.println("Errore nel metodo join()");
         } 
     }
-    
 
+    
     @Override
     public void run(){
         copia();

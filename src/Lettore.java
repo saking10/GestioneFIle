@@ -17,7 +17,7 @@ public class Lettore extends Thread{
     }
     
     /**
-     * Legge il file senza tener conto del tipo di file
+     * Legge il file senza considerare il tipo di file
      * e lo mostra in output
      */
     public void leggi(){
